@@ -35,3 +35,15 @@ print('A soma é: ', c);
 # / Divisão
 # % Resto inteiro da divisão
 
+#ESTRUTURAS CONDICIONAIS
+
+a = 34
+b = 34
+c = 4
+
+if b > a:
+    print('b é maior que a');
+elif b == a:
+    print('a e b são iguais');
+else:
+    print('b é menor que a');
