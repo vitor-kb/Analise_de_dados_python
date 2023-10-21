@@ -11,20 +11,20 @@ nota4 = float(input("Insira a 4ª nota: "));
 faltas = int(input('Digite a quantidade de faltas: '))
 
 media = (nota1 + nota2 + nota3 + nota4)/4;
-    
 
 print('Nome do Aluno: ', nome);
 print('Media do Aluno: ', media);
 print('Faltas: ', faltas);
 
 if media >= 7 and faltas <= 5:
-    print('Aprovado');
-elif media < 7 and faltas > 5:
-    print('Reprovado por media e faltas!');
-elif faltas > 5:
+    print('Aprovado!');
+elif media >= 7 and faltas > 5:
     print('Reprovado por faltas!');
-elif media < 7:
-    print('Reprovado por media!');
+elif media < 7 and faltas <= 5:
+    print('Reprovado por media');
+else:
+    print('Reprovado por Media e por faltas');
+
     
 #Forma utilizando laço de repetição
 média = 0
