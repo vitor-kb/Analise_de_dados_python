@@ -68,3 +68,23 @@ print(mensagem.split());
 
 mensagem = "1,4,5,67,78,9";
 print(mensagem.split(",")); #carcater em referencia
+
+#Funções
+def hello_world():
+    print("Meu exemplo em linguagem python");
+    print("Hello World");
+hello_world(); #função executada
+
+def eleva_ao_quadrado(num):
+    resultado = num * num;
+    return resultado;
+calculo = eleva_ao_quadrado(5);
+print(calculo); #função executada
+
+#Listas
+lista = []; #lista vazia
+
+lista2 = [2, 6,"Maria", "Pedro", 2.78];
+
+lista2.append(4); #adiciona o n° 4 ao final da lista, função append
+print(lista2);
