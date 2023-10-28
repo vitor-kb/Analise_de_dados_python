@@ -88,3 +88,6 @@ lista2 = [2, 6,"Maria", "Pedro", 2.78];
 
 lista2.append(4); #adiciona o n° 4 ao final da lista, função append
 print(lista2);
+
+lista2.remove("Maria"); #remove o dado Maria da lista, se não houver, ocorrerá um erro
+print(lista2);
