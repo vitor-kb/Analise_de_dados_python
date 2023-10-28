@@ -25,3 +25,28 @@ elif var4 is str("4"):
     print("var4 não é do tipo string");
 else:
     print("Nenhuma condição é verdadeira!");
+
+
+#estruturas de repetição
+#for é utilizado em situações que precisamos trabalhar uma estrutura de repetição
+for x in range(0, 6):
+    print(x);
+
+nomes = ["Maria", "Joao", "Pedro", "Leticia"];
+for n in nomes:
+    print(n);
+    
+
+#while, é executado enquanto em sua instrução houver uma condição verdadeira
+x = 1
+while x < 6:
+    print(x);
+    x += 1;
+    
+#quebra de loop
+x = 1;
+while x < 10:
+    print(x);
+    x += 1;
+    if x == 4: # <- se essa parte for removida, todos os números entre 1 e 10 serão impressos
+        break;
