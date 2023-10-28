@@ -50,3 +50,21 @@ while x < 10:
     x += 1;
     if x == 4: # <- se essa parte for removida, todos os números entre 1 e 10 serão impressos
         break;
+    
+
+#strings
+#convertendo o conteudo para maiusculo
+mensagem = "Linguagem de Programacao I - Python";
+print(mensagem.upper()); # passa o texto para maiúscula
+
+mensagem = "LINGUAGEM DE PROGRAMACAO I - PYTHON";
+print(mensagem.lower()); # passa o texto para minúscula
+
+mensagem = "hoje vai fazer calor";
+print("hoje" in mensagem); #acha uma palavra especifica dentro da variavel
+
+mensagem = "Ontem choveu e hoje esta fazendo sol";
+print(mensagem.split());
+
+mensagem = "1,4,5,67,78,9";
+print(mensagem.split(",")); #carcater em referencia
